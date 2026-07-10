@@ -38,77 +38,43 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end align-content-center pe-5 gap-5" id="navbarNav">
             <ul class="navbar-nav gap-1">
-                <li class="nav-item dropdown position-static mega-dropdown-wrapper">
+                <li class="nav-item dropdown position-static">
                     <a class="nav-link text-light dropdown-toggle" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Products <i class="fa-solid fa-angle-down ms-1"></i>
+                        Products <i class="fa-solid fa-angle-down"></i>
                     </a>
                     <div class="dropdown-menu mega-menu border-0 shadow-lg p-4 mt-2 start-50 w-50" style="align-items: center; transform: translateX(-40%);">
-                        <div class="container-fluid">
-                            <div class="row position-relative">
-                                <div class="col-md-5 border-end pe-4 d-flex flex-column gap-2">
-                            <div class="menu-tab-item item-banking">
-                                <a href="#" class="text-decoration-none text-dark dynamic-link p-3 rounded d-block">
-                                    <h6 class="mb-1 fw-bold">Banking</h6>
-                                    <p class="small text-muted mb-0">Business and personal banking accounts</p>
-                                </a>
-                            </div>
-                            <div class="menu-tab-item item-credit">
-                                <a href="#" class="text-decoration-none text-dark dynamic-link p-3 rounded d-block">
-                                    <h6 class="mb-1 fw-bold">Credit</h6>
-                                    <p class="small text-muted mb-0">Business and individual loans</p>
-                                </a>
-                            </div>
-                        </div>
-
-                        <!-- RIGHT COLUMN: Sub-elements only -->
-                        <div class="col-md-7 ps-4 pt-2">
-                            <!-- Banking Panel Content -->
-                            <div class="mega-content-panel content-banking d-flex flex-column gap-4">
-                                <!-- Sub Item 1 -->
-                                <div class="d-flex align-items-start gap-3">
-                                    <div class="icon-box rounded bg-primary-subtle text-primary p-2"><i class="fa-solid fa-building fa-lg"></i></div>
-                                    <div>
-                                        <a href="#" class="text-decoration-none fw-bold d-block text-primary mb-1">Business Account</a>
-                                        <span class="small text-muted">Get a free bank account power your business operations</span>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-5 border-end pe-4">
+                                    <div class=" mwenu-nav d-flex flex-column gap-2">
+                                        <div>
+                                            <a href="#" class="text-decoration-none dynamic-link active">
+                                                <h6 class="mb-1  text-black">Banking</h6>
+                                                <p class="small text-muted mb-0">Business and personal banking accounts</p>
+                                            </a>
+                                        </div>
+                                        <a href="#" class="text-decoration-none dynamic-link">
+                                            <h6 class="mb-1 text-black">Credit</h6>
+                                            <p class="small text-muted mb-0">Business and individual loans</p>
+                                        </a>
+                                        <a href="#">
+                                            <h6 class="mb-1 text-black">Payments</h6>
+                                            <p class="small text-muted mb-0">Accept payments from anywhere</p>
+                                        </a>
+                                        <a href="#">
+                                            <h6 class="mb-1 text-black fs-6">Business Management</h6>
+                                            <p class="small text-muted mb-0">Easy business money management & report</p>
+                                        </a>
                                     </div>
                                 </div>
-                                <!-- Sub Item 2 -->
-                                <div class="d-flex align-items-start gap-3">
-                                    <div class="icon-box rounded bg-light text-secondary p-2"><i class="fa-solid fa-hashtag fa-lg"></i></div>
-                                    <div>
-                                        <a href="#" class="text-decoration-none text-dark fw-bold d-block mb-1">USSD Banking</a>
-                                        <span class="small text-muted">Dial *5573# for easy, quick offline transactions</span>
-                                    </div>
-                                </div>
-                                <!-- Sub Item 3 -->
-                                <div class="d-flex align-items-start gap-3">
-                                    <div class="icon-box rounded bg-light text-secondary p-2"><i class="fa-solid fa-piggy-bank fa-lg"></i></div>
-                                    <div>
-                                        <a href="#" class="text-decoration-none text-dark fw-bold d-block mb-1">Savings</a>
-                                        <span class="small text-muted">Save your business goals and earn up to 17.5% interest .p.a. in return</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Credit Panel Content -->
-                            <div class="mega-content-panel content-credit d-flex flex-column gap-4">
-                                <div class="d-flex align-items-start gap-3">
-                                    <div class="icon-box rounded bg-success-subtle text-success p-2"><i class="fa-solid fa-hand-holding-dollar fa-lg"></i></div>
-                                    <div>
-                                        <a href="#" class="text-decoration-none fw-bold d-block text-success mb-1">Loans & Overdrafts</a>
-                                        <span class="small text-muted">Access credit facilities to expand your business quickly</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div> <!-- End Right Column -->
-
                             </div>
                         </div>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link  text-light" href="#">Company <i class="fa-solid fa-angle-down"></i></a>
+                    <a class="nav-link  text-light dropdown-toggle" href="#">
+                        Company <i class="fa-solid fa-angle-down"></i>
+                    </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-light" href="#">About</a>

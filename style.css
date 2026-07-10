@@ -76,7 +76,7 @@ a{
     background-color: #f4f6f9;
 }
 .menu-tab-item:hover .dynamic-link h6 {
-    color: #0d6efd;
+    /* color: #0d6efd; */
 }
 
 .row:has(.item-credit:hover) .content-banking {
