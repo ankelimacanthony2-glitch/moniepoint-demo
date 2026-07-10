@@ -1,0 +1,91 @@
+@import url('https://fonts.cdnfonts.com/css/aventa-personal-use-only');
+
+/* .zoom h1{
+    font-family: 'Aventa Peersonal Use Only', sans-serif;
+    font-size: 49.4667px;
+    font-weight: 400;
+} */
+:root{
+    --tony:#030B1D;
+    --tony2: #D8E0E4;
+    --tony3: #031335;
+    --tony4: #C4E9FD;
+    --tony5: #3E588E;
+}
+section{
+    padding: 60px 0;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.big-nat li:hover{
+    text-decoration: underline;
+    color: #D8E0E4;
+}
+@media (max-width: 768px){
+    .navbar-toggler{
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+.zoom{
+    margin-top: 50px;
+}
+.modal-body button:hover{
+    background-color: #E6F6FE;
+    color: #5691F4;
+}
+.incognito .zeddy{
+    /* border: 1px solid red; */
+    background-color: white;
+    color: #6096F4;
+    cursor: pointer;
+}
+/* .biz{
+    height: 30dvh;
+    animation-name: breeze;
+    animation-duration: 50s;
+    transition: ease;
+    transition-timing-function: linear;
+    animation-iteration-count: infinite;
+} */
+.mega-menu{
+    width: 860px;
+    max-width: 95vw;
+    border-radius: 16px;
+    position: absolute !important;
+    top: 100% !important;
+}
+.dropdown-toggle::after{
+    display: none !important;
+}
+.icon-box{
+    width: 44px;
+    flex-shrink: 0;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mega-content-panel.content-banking {
+    display: flex !important;
+}
+
+.menu-tab-item:hover .dynamic-link {
+    background-color: #f4f6f9;
+}
+.menu-tab-item:hover .dynamic-link h6 {
+    color: #0d6efd;
+}
+
+.row:has(.item-credit:hover) .content-banking {
+    display: none !important;
+}
+
+.row:has(.item-banking:hover) .content-banking {
+    display: flex !important;
+}
+.row:has(.item-credit:hover) .content-credit {
+    display: flex !important;
+}
