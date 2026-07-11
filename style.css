@@ -42,14 +42,45 @@ a{
     color: #6096F4;
     cursor: pointer;
 }
-/* .biz{
-    height: 30dvh;
-    animation-name: breeze;
-    animation-duration: 50s;
-    transition: ease;
-    transition-timing-function: linear;
-    animation-iteration-count: infinite;
-} */
+.biz{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.biz img{
+    height: 200px;
+    width: auto;
+    object-fit: contain;
+}
+@keyframes slidelogos{
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+.animation-container{
+    display: flex;
+    align-items: center;
+}
+.anime-business{
+    display: flex;
+    width: max-content;
+}
+.logo-group{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    padding-right: 4rem;
+    animation: slidelogos 30s linear infinite;
+}
+.enjoy-biz{
+    background-image: url("./media/ctaL\ \(1\).svg");
+    background-color: #0349C7;
+    background-position: center;
+}
 .mega-menu{
     width: 860px;
     max-width: 95vw;
