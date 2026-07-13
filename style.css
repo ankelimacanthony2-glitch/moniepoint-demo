@@ -23,6 +23,9 @@ a{
     text-decoration: underline;
     color: #D8E0E4;
 }
+.modal-body .img-fluid:hover{
+    background-color:  #E6F6FE;
+}
 @media (max-width: 768px){
     .navbar-toggler{
         display: flex;
@@ -52,6 +55,8 @@ a{
     height: 200px;
     width: auto;
     object-fit: contain;
+    border-radius: 20px;
+    border: 1px solid gray;
 }
 @keyframes slidelogos{
     0%{
@@ -72,7 +77,7 @@ a{
 .logo-group{
     display: flex;
     align-items: center;
-    gap: 4rem;
+    gap: 25px;
     padding-right: 4rem;
     animation: slidelogos 30s linear infinite;
 }
@@ -99,7 +104,7 @@ a{
     align-items: center;
     justify-content: center;
 }
-.mega-content-panel.content-banking {
+/* .mega-content-panel.content-banking {
     display: flex !important;
 }
 
@@ -108,7 +113,7 @@ a{
 }
 .menu-tab-item:hover .dynamic-link h6 {
     /* color: #0d6efd; */
-}
+/* }
 
 .row:has(.item-credit:hover) .content-banking {
     display: none !important;
@@ -118,5 +123,11 @@ a{
     display: flex !important;
 }
 .row:has(.item-credit:hover) .content-credit {
-    display: flex !important;
+    display: flex !important; */
+/* } */
+.flex-button{
+    display: none !important;
+}
+.flex-img1{
+    display: none !important;
 }
