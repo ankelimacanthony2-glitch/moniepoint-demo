@@ -150,6 +150,9 @@ a{
 .zummy:hover{
     transform: scale(0.95);
 }
+.enjoy-btn:hover{
+    transform: scale(0.95);
+}
 .sticky{
     position: sticky;
     top: 120px;
