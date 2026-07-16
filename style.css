@@ -6,15 +6,28 @@
     --tony4: #C4E9FD;
     --tony5: #3E588E;
 }
-body{
-    scrollbar-color: #0357EE;
-    scrollbar-width: thin;
+body::-webkit-scrollbar{
+    scrollbar-color: grey;
+
+}
+body::-webkit-scrollbar-thumb{
+    background: #0357EE;
 }
 section{
     padding: 60px 0;
 }
 .footer{
     padding: 60px 0;
+}
+.btn2{
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    color: #ffffff;
+    background-color: #031335;
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color:  #35425D;
+    transform: scale(0.95);
 }
 a{
     text-decoration: none;
@@ -129,4 +142,17 @@ a{
 }
 .flex-img1{
     display: none !important;
+}
+.zeddy:hover{
+    background-color: #f2f2f2;
+    transform: scale(0.95);
+}
+.zummy:hover{
+    transform: scale(0.95);
+}
+.sticky{
+    position: sticky;
+    top: 120px;
+    z-index: 100;
+    /* opacity: 1; */
 }
